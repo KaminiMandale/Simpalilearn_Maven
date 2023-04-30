@@ -51,7 +51,7 @@ public class BaseClass {
 		this.driver = new ChromeDriver();
 		driver.get("https://www.simplilearn.com/");
 		driver.manage().window().maximize();
-		driver.manage().timeouts().implicitlyWait(3000, TimeUnit.MILLISECONDS);
+		driver.manage().timeouts().implicitlyWait(4000, TimeUnit.MILLISECONDS);
 	}
 	
 	
